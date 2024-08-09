@@ -1,0 +1,93 @@
+:root {
+  --color-accent: oklch(65% 50% 0);
+  color-scheme: light dark;
+}
+
+body {
+
+    font: 100%/1.5 system-ui;
+    max-width: 75%;
+    margin-inline: auto;
+    padding: auto;
+  
+}
+ul {
+  display: contents;
+}
+dl{
+  display: grid;
+  grid-template-columns: 4 1fr;
+  gap: .5em;
+}
+dt{
+  grid-row: 1; 
+  color: lightslategrey; /* Set text color to light grey */
+  
+}
+
+dd{
+  grid-row: 2; /* Place on the second row of the grid */
+  font-size: 1.5em; /* Set font size to 1.2 times the default */
+  margin: 0; /* Remove the default margin */
+}
+.githubstats{
+  
+  border-color: darkgray;
+  border-width: 2px;
+  border-style: solid;
+  padding: 1em;
+}
+li {
+  display: contents;
+}
+
+a.current {
+  color: red;
+  padding-bottom: 1%;
+  border-bottom-width: .4em;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(50% 10% 200 / 40%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+  text-align: center;
+  padding: 0.5em;
+}
+
+
+form{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+}
+
+label {
+  display: grid;
+  grid-template-columns: subgrid;
+}
+
+img {
+  max-width: 80%;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
+
+
+h2 {
+  margin: 0;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1; /* Optionally, inherit the line height from the parent */
+  text-wrap: balance;
+}
