@@ -4,10 +4,11 @@
     export let headerText;
     export let category;
     let expanded = false
+    import { slide } from 'svelte/transition';
 
 </script>
 
-<div class="collapsible">
+<div class="collapsible" >
     <h3>
         <button 
         aria-expanded={expanded} 
@@ -31,7 +32,7 @@
 </svg>
         </button>
     </h3>
-    
+ 
     <div class='contents' hidden={!expanded}>
         <slot></slot>
     </div>

@@ -1,4 +1,4 @@
-
+<!-- npm run dev -- --open -->
 
 <svelte:head>
 	<title>Curriculum Vitae</title>
@@ -6,13 +6,15 @@
 
 <script>
 	import CollapsibleSection from './CollapsibleSection.svelte'
+    
+
 </script>
 
 <article class="resume">
 
     <h1><a href="images/cv.pdf"><span> tl;dr </span> </a> </h1>
-    
-   
+
+
     <section class="education">
         <CollapsibleSection headerText={"Education: I went to MIT. A lot. I have as many MIT degrees as Lebron has NBA rings."} category="education">
             <div class="content">
@@ -53,7 +55,7 @@
         <CollapsibleSection headerText={"Projects:"} category="projects">
             <div class="content">
                 <ul>
-                    <li>data vis final project</li>
+                    <li><a href="./resumeCV/datavis">Who Owns Boston</a> </li>
                     <li>374 final project</li>
                     <li>301 final project</li>
                     <li>334 final project</li>
@@ -61,7 +63,7 @@
                     <li>6a thesis</li>
                     <li>LGO thesis</li> 
                     <li>noise cancellation 320</li>
-                    <li>drone mounted projector s063</li>
+                    <li><a href="./resumeCV/DroneTracker">A Drone's Eye View</a> </li>
                     <li>speaker tracking system 115</li>
                     <li>truelink at memsi</li>
                     <li>aquadio</li>
