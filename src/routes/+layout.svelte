@@ -5,16 +5,16 @@
 
   import "../style.css";
   let pages = [
-  { url: base+"/", title: 'Wubs', bases: './', subPage: false },  
-  { url: base+'/resumeCV', title: 'Curriculum Vitae', bases: './resumeCV', subPage: false },
-  { url: base+'/art', title: "Art<sup>TM</sup>", bases: './art', subPage: false },
-  { url: '{base}/sayhello', title: 'Contact', bases: './sayhello', subPage: false },
-  { url: '/resumeCV/datavis', title: 'Who Owns Boston', base: './resumeCV', subPage: true },
-  { url: '/resumeCV/DroneTracker', title: 'A Drone\'s Eye View', bases: './resumeCV', subPage: true },
-  { url: '/resumeCV/SpeakerTracker', title: 'Mounted Speaker Tracking System', bases: './resumeCV', subPage: true },
-  { url: '/resumeCV/6athesis', title: 'An Investigation of USRP FPGA as a platform for Quantum Sensing and Control', bases: './resumeCV', subPage: true },
-  { url: '/resumeCV/astra', title: 'Astra Space Inc', bases: './resumeCV', subPage: true },
-  { url: '/resumeCV/bain', title: 'Bain & Company', bases: './resumeCV', subPage: true }
+  { url: base +"/", title: 'Wubs', bases: base +"/", subPage: false },  
+  { url: base +'/resumeCV', title: 'Curriculum Vitae', bases: './resumeCV', subPage: false },
+  { url: base +'/art', title: "Art<sup>TM</sup>", bases: base +'/sayhello', subPage: false },
+  { url: base +'/sayhello', title: 'Contact', bases: base +'/sayhello', subPage: false },
+  { url: base +'/resumeCV/datavis', title: 'Who Owns Boston', base: base +'/resumeCV', subPage: true },
+  { url: base +'/resumeCV/DroneTracker', title: 'A Drone\'s Eye View', bases: base +'/resumeCV', subPage: true },
+  { url: base +'/resumeCV/SpeakerTracker', title: 'Mounted Speaker Tracking System', bases: base +'/resumeCV', subPage: true },
+  { url: base +'/resumeCV/6athesis', title: 'An Investigation of USRP FPGA as a platform for Quantum Sensing and Control', bases: base +'/resumeCV', subPage: true },
+  { url: base +'/resumeCV/astra', title: 'Astra Space Inc', bases: base +'/resumeCV', subPage: true },
+  { url: base +'/resumeCV/bain', title: 'Bain & Company', bases: base +'/resumeCV', subPage: true }
 
 ];
   import { page } from '$app/stores';
