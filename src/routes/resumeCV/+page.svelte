@@ -61,14 +61,14 @@
                     <li>374 final project</li>
                     <li>301 final project</li>
                     <li>334 final project</li>
-                    <li><a href="../images/portfolio/jaw/Final Project Report.pdf">JAW Dropping Audio Spectral Visual Effects</a></li>
+                    <li><a href="/images/portfolio/jaw/Final Project Report.pdf">JAW Dropping Audio Spectral Visual Effects</a></li>
                     <li><a href="./resumeCV/6athesis">An Investigation of USRP FPGA as a platform for Quantum Sensing and Control</a> </li>
                     <li>LGO thesis</li> 
                     <li>noise cancellation 320</li>
                     <li><a href="./resumeCV/DroneTracker">A Drone's Eye View</a> </li>
                     <li><a href="./resumeCV/SpeakerTracker">Mounted Loudspeaker Tracking System</a> </li>
                     
-                    <li><a href="../images/portfolio/trulink.pdf"> TrueLink @ MEMSI</a></li>
+                    <li><a href="/images/portfolio/trulink.pdf"> TrueLink @ MEMSI</a></li>
                     <li>aquadio</li>
                 </ul>
             </div>
@@ -115,23 +115,23 @@
                     complexities behind effective instruction and mentorship. As a senior, I pride myself in my
                     ability to distill many years of experiences into useful and actionable intelligence for
                     younger students.</p>
-        
-        <h2>System Modeling</h2>
-        <p>Through a wide range of projects and experiences including multiple feedback controls
-            projects and USRP projects, I developed my system modeling abilities extensively. In the
-            broader engineering sense, I began to appreciate the value of "good enough" system modeling.
-            The key understanding being the trade off between accuracy and complexity once the
-            diminishing returns of each additional bit of complexity is added.</p>
-        
-        <h2>Creative Adaptability</h2>
-                                <p>My single greatest skill is my adaptability. Reading the complexity of a situation, whether
-                                    it be client interactions or electron interactions, I can adapt to changing requirements and
-                                    environments all while still practicing the other skills mentioned here. Being able to adapt
-                                    to unexpected and uncontrollable circumstances allows me to tap into my creative side,
-                                    something I usually utilize more when I'm writing poetry, to solve technical problems</p>
-        
-        
-            </div>
+                
+                <h2>System Modeling</h2>
+                <p>Through a wide range of projects and experiences including multiple feedback controls
+                    projects and USRP projects, I developed my system modeling abilities extensively. In the
+                    broader engineering sense, I began to appreciate the value of "good enough" system modeling.
+                    The key understanding being the trade off between accuracy and complexity once the
+                    diminishing returns of each additional bit of complexity is added.</p>
+                
+                <h2>Creative Adaptability</h2>
+                    <p>My single greatest skill is my adaptability. Reading the complexity of a situation, whether
+                        it be client interactions or electron interactions, I can adapt to changing requirements and
+                        environments all while still practicing the other skills mentioned here. Being able to adapt
+                        to unexpected and uncontrollable circumstances allows me to tap into my creative side,
+                        something I usually utilize more when I'm writing poetry, to solve technical problems</p>
+                
+                
+                    </div>
         </CollapsibleSection>
        
     </section>
