@@ -1,12 +1,13 @@
 
 <script>
   import Title from './Title.svelte';
+  import { base } from '$app/paths';
 
   import "../style.css";
   let pages = [
-  { url: '', title: 'Wubs', base: './', subPage: false },  
-  { url: '/resumeCV', title: 'Curriculum Vitae', base: './resumeCV', subPage: false },
-  { url: '/art', title: "Art<sup>TM</sup>", base: './art', subPage: false },
+  { url: './', title: 'Wubs', base: './', subPage: false },  
+  { url: './resumeCV', title: 'Curriculum Vitae', base: './resumeCV', subPage: false },
+  { url: './art', title: "Art<sup>TM</sup>", base: './art', subPage: false },
   { url: '/sayhello', title: 'Contact', base: './sayhello', subPage: false },
   { url: '/resumeCV/datavis', title: 'Who Owns Boston', base: './resumeCV', subPage: true },
   { url: '/resumeCV/DroneTracker', title: 'A Drone\'s Eye View', base: './resumeCV', subPage: true },
@@ -32,7 +33,7 @@
 <nav>
   {#each pages as p}
     {#if !p.subPage}
-      <a href={ p.url } class:current={ $page.route.id === p.url || p.base === currentBase }> <Title title={p.title} /> </a>
+      <a href={ p.url } class:current={$page.route.id === p.url || p.base === currentBase }> <Title title={p.title} /> </a>
     {/if}
   {/each}
 </nav>
