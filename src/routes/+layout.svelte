@@ -4,8 +4,8 @@
 
   import "../style.css";
   let pages = [
-  { url: '/', title: 'Wubs', base: './', subPage: false },  
-  { url: '/resumeCV', title: 'Curriculum Vitae', base: './resumeCV', subPage: false },
+  { url: 'me/', title: 'Wubs', base: './', subPage: false },  
+  { url: 'me/resumeCV', title: 'Curriculum Vitae', base: './resumeCV', subPage: false },
   { url: '/art', title: "Art<sup>TM</sup>", base: './art', subPage: false },
   { url: '/sayhello', title: 'Contact', base: './sayhello', subPage: false },
   { url: '/resumeCV/datavis', title: 'Who Owns Boston', base: './resumeCV', subPage: true },
