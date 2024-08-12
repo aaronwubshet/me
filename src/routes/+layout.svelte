@@ -10,7 +10,10 @@
   { url: '/sayhello', title: 'Contact', base: '/sayhello', subPage: false },
   { url: '/resumeCV/datavis', title: 'Who Owns Boston', base: '/resumeCV', subPage: true },
   { url: '/resumeCV/DroneTracker', title: 'A Drone\'s Eye View', base: '/resumeCV', subPage: true },
-  { url: '/resumeCV/SpeakerTracker', title: 'Mounted Speaker Tracking System', base: '/resumeCV', subPage: true }
+  { url: '/resumeCV/SpeakerTracker', title: 'Mounted Speaker Tracking System', base: '/resumeCV', subPage: true },
+  { url: '/resumeCV/6athesis', title: 'An Investigation of USRP FPGA as a platform for Quantum Sensing and Control', base: '/resumeCV', subPage: true },
+  { url: '/resumeCV/astra', title: 'Astra Space Inc', base: '/resumeCV', subPage: true },
+  { url: '/resumeCV/bain', title: 'Bain & Company', base: '/resumeCV', subPage: true }
 
 ];
   import { page } from '$app/stores';

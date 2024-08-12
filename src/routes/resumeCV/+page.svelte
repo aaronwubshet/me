@@ -34,14 +34,16 @@
         <CollapsibleSection headerText={"Work Experience:"} category="work">
             <div class="content">
                 <p>Consulting</p>
+                <p><a href="/resumeCV/bain">Managmeent Consulting @ Bain</a></p>
+
                 <time>September 2020</time> to <time>May 2023</time>
                     
                         <li>Helped define the 3rd party MRO strategy for a large A&D client</li>
                         <li>Supported procurement cost rationalize SWAT support team at IT services firm</li>
                         <li>Spearheaded financial modeling and market research (survey based and market participant interview based) workflows while managing 1-2 people and conducting company or industry due diligence primarily in healthcare</li>
                         <li>Owned supply chain analysis, helped to stand up cost visibility PMO, and investigated potential volume scale benefits with a heavy industrials and manufacturing end client</li>
-                    
-                    <p>Product Management</p>
+                
+                <p><a href="/resumeCV/astra">Product Management @ Astra</a></p>
                 <time>June 2022</time> to <time>Oct 2022</time>
                     <ul>
                         <li>Investigate technical feasibility and market appetite for new space products and build business case for funding decision for senior leadership team</li>
@@ -59,13 +61,14 @@
                     <li>374 final project</li>
                     <li>301 final project</li>
                     <li>334 final project</li>
-                    <li>jaw dropping visual effects 111</li>
-                    <li>6a thesis</li>
+                    <li><a href="../images/portfolio/jaw/Final Project Report.pdf">JAW Dropping Audio Spectral Visual Effects</a></li>
+                    <li><a href="/resumeCV/6athesis">An Investigation of USRP FPGA as a platform for Quantum Sensing and Control</a> </li>
                     <li>LGO thesis</li> 
                     <li>noise cancellation 320</li>
                     <li><a href="/resumeCV/DroneTracker">A Drone's Eye View</a> </li>
                     <li><a href="/resumeCV/SpeakerTracker">Mounted Loudspeaker Tracking System</a> </li>
-                    <li>truelink at memsi</li>
+                    
+                    <li><a href="images/portfolio/trulink.pdf"> TrueLink @ MEMSI</a></li>
                     <li>aquadio</li>
                 </ul>
             </div>
@@ -135,7 +138,11 @@
 </article>
 
 <style>
-	
+	a{
+        color: -webkit-link;
+        text-decoration-line: underline;
+        cursor: auto;
+    }
 	section {
         margin-bottom: 1em;
     }

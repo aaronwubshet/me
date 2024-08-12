@@ -239,7 +239,7 @@
 
 </script>
 
-
+<div>
 
 <h1>Who Owns Boston? (& why you should know them before signing a lease) </h1>
 
@@ -419,7 +419,7 @@
 	<p>Analyze Boston, Property Assessment 2024</p>
 	<p>This project was developed with guidance and feedback from the Metropolitan Area Planning Commission (MAPC).</p>
 </div>
-
+</div>
 
 <style>
 	
@@ -427,18 +427,6 @@
         width: 100%;
     }
 
-    
-    body {
-	font-size: large;
-	display: flex;
-	flex-flow: column;
-	max-width: 80em;
-	min-height: 100vh;
-	box-sizing: border-box;
-	margin: auto;
-	padding: 1em;
-	
-}
 
 	caption {
 		font-size: 1.5em; 
