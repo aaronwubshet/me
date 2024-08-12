@@ -4,20 +4,34 @@
 
   import "../style.css";
   let pages = [
-  {url: "./", title: "Wubs"},
-  {url: "./resumeCV", title: "Curriculum Vitae"},
-  {url: "./art", title: "Art<sup>TM</sup>"},
-  {url: "./sayhello", title: "Say Hello"}
-  ];
+  { url: '/', title: 'Wubs', base: '/', subPage: false },  
+  { url: '/resumeCV', title: 'Curriculum Vitae', base: '/resumeCV', subPage: false },
+  { url: '/art', title: "Art<sup>TM</sup>", base: '/art', subPage: false },
+  { url: '/sayhello', title: 'Contact', base: '/sayhello', subPage: false },
+  { url: '/resumeCV/datavis', title: 'Who Owns Boston', base: '/resumeCV', subPage: true },
+  { url: '/resumeCV/DroneTracker', title: 'A Drone\'s Eye View', base: '/resumeCV', subPage: true },
+  { url: '/resumeCV/SpeakerTracker', title: 'Mounted Speaker Tracking System', base: '/resumeCV', subPage: true }
+
+];
   import { page } from '$app/stores';
-  
- 
+
+  let currentBase="";
+  $: {
+    currentBase = "";
+    pages.forEach(p => {
+      if (p.subPage && $page.route.id === p.url) {
+        currentBase = p.base;
+      } 
+    });
+  }
 </script>
 
 <nav>
-	{#each pages as p }
-        <a href={ p.url } class:current={ "." + $page.route.id === p.url }> <Title title={p.title} /> </a>
-	{/each}
+  {#each pages as p}
+    {#if !p.subPage}
+      <a href={ p.url } class:current={ $page.route.id === p.base || p.base === currentBase }> <Title title={p.title} /> </a>
+    {/if}
+  {/each}
 </nav>
 
 

@@ -55,7 +55,7 @@
         <CollapsibleSection headerText={"Projects:"} category="projects">
             <div class="content">
                 <ul>
-                    <li><a href="./resumeCV/datavis">Who Owns Boston</a> </li>
+                    <li><a href="/resumeCV/datavis">Who Owns Boston</a> </li>
                     <li>374 final project</li>
                     <li>301 final project</li>
                     <li>334 final project</li>
@@ -63,8 +63,8 @@
                     <li>6a thesis</li>
                     <li>LGO thesis</li> 
                     <li>noise cancellation 320</li>
-                    <li><a href="./resumeCV/DroneTracker">A Drone's Eye View</a> </li>
-                    <li>speaker tracking system 115</li>
+                    <li><a href="/resumeCV/DroneTracker">A Drone's Eye View</a> </li>
+                    <li><a href="/resumeCV/SpeakerTracker">Mounted Loudspeaker Tracking System</a> </li>
                     <li>truelink at memsi</li>
                     <li>aquadio</li>
                 </ul>

@@ -1,18 +1,3 @@
-console.log("IT’S ALIVE!");
-
-function $$ (selector, context = document) {
-	return Array.from(context.querySelectorAll(selector));
-}
-
-
-let pages = {
-	".": "Wubs",
-	"resumeCV": "Curriculum Vitae",
-    "Art<sup>TM</sup>": "Art<sup>TM</sup>",
-    "sayhello": "Say Hello",
-};
-
-let nav = document.createElement("nav");
 
 
 let form = document.forms["email-form"];
