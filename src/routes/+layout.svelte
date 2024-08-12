@@ -19,15 +19,13 @@
 ];
   import { page } from '$app/stores';
 
- $:{
-  console.log($page.route.id === pages[0].url)
- }
+
 </script>
 
 <nav>
   {#each pages as p}
     {#if !p.subPage}
-      <a href={ p.url } class:current={$page.route.id === p.url || ($page.route.id.includes(p.url)&&p.title!="Wubs")}> <Title title={p.title} /> </a>
+      <a href={ p.url } class:current={base + $page.route.id === p.url || ($page.route.id.includes(p.url)&&p.title!="Wubs")}> <Title title={p.title} /> </a>
     {/if}
   {/each}
 </nav>
