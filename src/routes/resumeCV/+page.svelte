@@ -62,14 +62,14 @@
                     <li>374 final project</li>
                     <li>301 final project</li>
                     <li>334 final project</li>
-                    <li><a href="/images/portfolio/jaw/Final Project Report.pdf">JAW Dropping Audio Spectral Visual Effects</a></li>
+                    <li><a href="images/portfolio/jaw/Final Project Report.pdf">JAW Dropping Audio Spectral Visual Effects</a></li>
                     <li><a href="{base}/resumeCV/6athesis">An Investigation of USRP FPGA as a platform for Quantum Sensing and Control</a> </li>
                     <li>LGO thesis</li> 
                     <li>noise cancellation 320</li>
                     <li><a href="{base}/resumeCV/DroneTracker">A Drone's Eye View</a> </li>
                     <li><a href="{base}/resumeCV/SpeakerTracker">Mounted Loudspeaker Tracking System</a> </li>
                     
-                    <li><a href="/images/portfolio/trulink.pdf"> TrueLink @ MEMSI</a></li>
+                    <li><a href="images/portfolio/trulink.pdf"> TrueLink @ MEMSI</a></li>
                     <li>aquadio</li>
                 </ul>
             </div>
