@@ -19,21 +19,13 @@
 ];
   import { page } from '$app/stores';
 
-  let currentBase="";
-  $: {
-    currentBase = "";
-    pages.forEach(p => {
-      if (p.subPage && $page.route.id === p.url) {
-        currentBase = p.bases;
-      } 
-    });
-  }
+ 
 </script>
 
 <nav>
   {#each pages as p}
     {#if !p.subPage}
-      <a href={ p.url } class:current={$page.route.id === p.url || p.bases === currentBase }> <Title title={p.title} /> </a>
+      <a href={ p.url } class:current={$page.route.id === p.url || ($page.route.id.includes(p.url)&&p.title!="Wubs")}> <Title title={p.title} /> </a>
     {/if}
   {/each}
 </nav>
