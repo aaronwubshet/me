@@ -87,7 +87,7 @@
                 </ul>
                 <h2>Hardware System Integration</h2>
                                 <p>My experience managing hardware and software interfaces are evident in <a
-                                        href="droneproject.html">A Drone's Eye View</a> and <a
+                                        href="{base}/resumeCV/DroneTracker">A Drone's Eye View</a> and <a
                                         href="images/portfolio/jaw/JAW_PRES.pdf">Audio
                                         Spectral Visual Effects</a>. Both projects involved multiple group memebers working on
                                     distinct portions of a final product, and the success of both projects stemmed from an early
