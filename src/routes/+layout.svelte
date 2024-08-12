@@ -19,7 +19,9 @@
 ];
   import { page } from '$app/stores';
 
- 
+ $:{
+  console.log($page.route.id === pages[0].url)
+ }
 </script>
 
 <nav>
