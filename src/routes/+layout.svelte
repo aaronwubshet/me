@@ -5,16 +5,16 @@
 
   import "../style.css";
   let pages = [
-  { url: './', title: 'Wubs', base: './', subPage: false },  
-  { url: './resumeCV', title: 'Curriculum Vitae', base: './resumeCV', subPage: false },
-  { url: './art', title: "Art<sup>TM</sup>", base: './art', subPage: false },
-  { url: '/sayhello', title: 'Contact', base: './sayhello', subPage: false },
+  { url: base+"/", title: 'Wubs', bases: './', subPage: false },  
+  { url: base+'/resumeCV', title: 'Curriculum Vitae', bases: './resumeCV', subPage: false },
+  { url: base+'/art', title: "Art<sup>TM</sup>", bases: './art', subPage: false },
+  { url: '{base}/sayhello', title: 'Contact', bases: './sayhello', subPage: false },
   { url: '/resumeCV/datavis', title: 'Who Owns Boston', base: './resumeCV', subPage: true },
-  { url: '/resumeCV/DroneTracker', title: 'A Drone\'s Eye View', base: './resumeCV', subPage: true },
-  { url: '/resumeCV/SpeakerTracker', title: 'Mounted Speaker Tracking System', base: './resumeCV', subPage: true },
-  { url: '/resumeCV/6athesis', title: 'An Investigation of USRP FPGA as a platform for Quantum Sensing and Control', base: './resumeCV', subPage: true },
-  { url: '/resumeCV/astra', title: 'Astra Space Inc', base: './resumeCV', subPage: true },
-  { url: '/resumeCV/bain', title: 'Bain & Company', base: './resumeCV', subPage: true }
+  { url: '/resumeCV/DroneTracker', title: 'A Drone\'s Eye View', bases: './resumeCV', subPage: true },
+  { url: '/resumeCV/SpeakerTracker', title: 'Mounted Speaker Tracking System', bases: './resumeCV', subPage: true },
+  { url: '/resumeCV/6athesis', title: 'An Investigation of USRP FPGA as a platform for Quantum Sensing and Control', bases: './resumeCV', subPage: true },
+  { url: '/resumeCV/astra', title: 'Astra Space Inc', bases: './resumeCV', subPage: true },
+  { url: '/resumeCV/bain', title: 'Bain & Company', bases: './resumeCV', subPage: true }
 
 ];
   import { page } from '$app/stores';
@@ -24,7 +24,7 @@
     currentBase = "";
     pages.forEach(p => {
       if (p.subPage && $page.route.id === p.url) {
-        currentBase = p.base;
+        currentBase = p.bases;
       } 
     });
   }
@@ -33,7 +33,7 @@
 <nav>
   {#each pages as p}
     {#if !p.subPage}
-      <a href={ p.url } class:current={$page.route.id === p.url || p.base === currentBase }> <Title title={p.title} /> </a>
+      <a href={ p.url } class:current={$page.route.id === p.url || p.bases === currentBase }> <Title title={p.title} /> </a>
     {/if}
   {/each}
 </nav>
