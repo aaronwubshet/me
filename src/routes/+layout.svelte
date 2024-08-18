@@ -8,7 +8,7 @@
   { url: base +"/", title: 'Wubs', subPage: false },  
   { url: base +'/resumeCV', title: 'Curriculum Vitae', subPage: false },
   { url: base +'/art', title: "Art<sup>TM</sup>", subPage: false },
-  { url: base +'/sayhello', title: 'Contact', subPage: false },
+  { url: base +'/sayhello', title: 'Say Hello!', subPage: false },
   { url: base +'/resumeCV/datavis', title: 'Who Owns Boston', subPage: true },
   { url: base +'/resumeCV/DroneTracker', title: 'A Drone\'s Eye View', subPage: true },
   { url: base +'/resumeCV/SpeakerTracker', title: 'Mounted Speaker Tracking System', subPage: true },

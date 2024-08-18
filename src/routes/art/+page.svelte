@@ -1,15 +1,20 @@
 <svelte:head>
-	<title>Contact me</title>
+	<title>Art™</title>
 </svelte:head>
 
-<h1>Contact Me</h1>
-<form method="GET" name="email-form">
-    
-    <label for="subject">Subject:</label> 
-    <input type="text" id="subject" name="subject" required>
-    
-    <label for="body">Message:</label>
-    <textarea type="body" id="body" name="body" required></textarea>
-    
-    <input type="submit" value="Submit">
-</form>
+<script lang="ts">
+    import PhotoSwipeGallery from "svelte-photoswipe";
+    import type { GalleryItem } from "svelte-photoswipe";
+    const images: GalleryItem[] = [];
+    images.push({
+      src: "https://picsum.photos/id/1/3000/4000",
+      width: 3000,
+      height: 4000,
+      alt: "Photo", // optional
+      cropped: true, // optional, default=false; see https://photoswipe.com/v5/docs/ 
+      thumbnail: { src: "https://picsum.photos/id/1/300/400", width: 300, height: 400 },
+    });
+    // ...
+  </script>
+  
+  <PhotoSwipeGallery {images} individual styling="flex" />
