@@ -1,20 +1,45 @@
 <svelte:head>
 	<title>Art™</title>
 </svelte:head>
+<script>
+	import RandomImage from './RandomImage.svelte'
+	import ModalGrid from './ModalGrid.svelte'
+	let images = []
+	let allImages = []
+	
+	let showing;
+	$: showAllImages = showing ? true : false;
+	const promise = data();
+	
+	async function data() {
+	const d = await fetch(`https://picsum.photos/v2/list`);
+	const list = await d.json();
+	allImages = [...list]
+	images = [...allImages.slice(0, 25)]
+		console.log(list)
+	}
+</script>
+<div class="grid">
+{#await promise}
+	Loading
+	{:then _}
+	{#each images as img (img.url)}
+		<div class="grid-item">
+		<RandomImage {img}/>
+	</div>
+	{/each}
+	<button on:click={() => {showAllImages = !showAllImages}}>
+		All Images
+	</button>
+	<ModalGrid showing={showAllImages} images={allImages}/>
+{/await}
+</div>
 
-<script lang="ts">
-    import PhotoSwipeGallery from "svelte-photoswipe";
-    import type { GalleryItem } from "svelte-photoswipe";
-    const images: GalleryItem[] = [];
-    images.push({
-      src: "https://picsum.photos/id/1/3000/4000",
-      width: 3000,
-      height: 4000,
-      alt: "Photo", // optional
-      cropped: true, // optional, default=false; see https://photoswipe.com/v5/docs/ 
-      thumbnail: { src: "https://picsum.photos/id/1/300/400", width: 300, height: 400 },
-    });
-    // ...
-  </script>
-  
-  <PhotoSwipeGallery {images} individual styling="flex" />
+<style>
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		grid-gap: 0.8rem;
+	}
+	
+</style>
