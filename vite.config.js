@@ -2,6 +2,6 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-	base: 'https://aaronwubshet.com/',
+	base: 'aaronwubshet.com',
 	plugins: [sveltekit()]
 });
