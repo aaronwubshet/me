@@ -12,8 +12,9 @@
 	const promise = data();
 	
 	async function data() {
-	const d = await fetch(`https://picsum.photos/v2/list`);
+	const d = await fetch(`https://raw.githubusercontent.com/aaronwubshet/me/main/image_list`);
 	const list = await d.json();
+	console.log(list);
 	allImages = [...list]
 	images = [...allImages.slice(0, 25)]
 		console.log(list)
