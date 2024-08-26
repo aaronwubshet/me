@@ -20,13 +20,16 @@
         <CollapsibleSection headerText={"Education: I went to MIT. A lot. I have as many MIT degrees as Lebron has NBA rings."} category="education">
             <div class="content">
                 <ul>
-                    <li> Bachelor of Science in Electrical Engineering: <time>September 2015</time> to <time>May 2019</time> "Cleveland! This is for you!"</li>
-                    <li> Masters of Engineering in Electrical Engineering: <time>June 2019</time> to <time>May 2020</time> Mickey Mouse Ring</li>
-                    <li> Masters of Science in Electrical Engineering*: <time>June 2023</time> to <time>May 2025</time> "Taking my talents to south beach"</li>
-                    <li> Masters of Business Administration*: <time>June 2023</time> to <time>May 2025</time> "Not 1...not 2...not 3...not 4..." </li>
-                    <li> High School Diploma: <time>August 2011</time> to <time>May 2015</time> In-season tournament banner in the rafters</li>
-                    *The MS and MBA were part of a dual degree program called Leaders of Global Operations (LGO) i.e. the Miami Heat super team of the early 2010s.
+                    <li> <time>September 2015</time> to <time>May 2019</time>: <b> Bachelors of Science in Electrical Engineering</b> <em>"Cleveland! This is for you!"</em></li>
+                    <li> <time>June 2019</time> to <time>May 2020</time>: <b>Masters of Engineering in Electrical Engineering</b> <em>Mickey Mouse Ring</em></li>
+                    <li> <time>June 2023</time> to <time>May 2025</time>:<b>Masters of Science in Electrical Engineering*</b> <em> "Taking my talents to south beach"^</em></li>
+                    <li> <time>June 2023</time> to <time>May 2025</time>: <b>Masters of Business Administration*</b><em>"Not 1...not 2...not 3...not 4..."^</em> </li>
+                    <li> <time>August 2011</time> to <time>May 2015</time>: <b>High School Diploma</b> <em>In-season tournament banner in the rafters</em></li>
                 </ul>
+                    <a href="https://lgo.mit.edu">*MS and MBA were part of a dual degree program called Leaders of Global Operations (LGO)</a>
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/Big_Three_(Miami_Heat)">^the Miami Heat super team of the early 2010s.</a>
+                
             </div>
         </CollapsibleSection>
     </section>
@@ -34,6 +37,15 @@
     <section class="experiences">
         <CollapsibleSection headerText={"Work Experience:"} category="work">
             <div class="content">
+                <p>Biotechnology</p>
+                <p><a href="{base}/resumeCV/bain">Electromechanical Engineering @ Amgen</a></p>
+
+                <time>June 2024</time> to <time>Dec 2024</time>
+                    
+                <li>Researched electromechanical drug delivery device market focusing on on-body injectors to identify key trends, features, and landscape dynamics</li>
+                <li>Built strategic initiatives for Amgen device team to use as input in their feature selection process to boost device adoption by drug teams and patients   </li>
+                <li> Enacted case studies to demonstrate technical value of temperature modeling and sensing capabilities on an autoinjector through RNN based prediction </li>
+
                 <p>Consulting</p>
                 <p><a href="{base}/resumeCV/bain">Managmeent Consulting @ Bain</a></p>
 

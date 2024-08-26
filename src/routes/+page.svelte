@@ -7,17 +7,17 @@
 	<title>Wubs</title>
 </svelte:head>
 
-<h1>Aaron Wubshet</h1>
+<h1>Aaron Wubshet: UNDER CONSTRUCTION BROWSE AT YOUR OWN RISK</h1>
 <h2>The basics and more </h2>
 <p> Welcome to my drawing board / dumping ground / portfolio of past projects and experiences! If you've found yourself here then you probably know who I am, but if you don't, my name is Aaron. I will be your host for this journey through my (mostly) professional life. But first a few quick facts...<p>
-	<b>Family</b> - My parents immigrated to the US from Ethiopia before I was born in the northern Virgina / DC area. We soon moved the surburbs outside Atlanta where I grew up and my younger sister was born.
+	<b>Family</b> - My parents immigrated to the US from Ethiopia before I was born in the northern Virginia / DC area. We soon moved the suburbs outside Atlanta where I grew up and my younger sister was born.
 </p>
 <p>
 	<b>Learning</b> - I went to a STEM focused high school called GSMST before heading off to
 	Boston to
-	go to MIT for undergradate and eventually my masters of engineering, both in electrical
+	go to MIT for undergraduate and eventually my masters of engineering, both in electrical
 	engineering. I continue to enjoy learning new things both related to engineering and in
-	other domains. I am returing to MIT Sloan Summer 2023 as part of the LGO program where I 
+	other domains. I am returning to MIT Sloan Summer 2023 as part of the LGO program where I 
 	will complete a dual degree program in Business (MBA) and Electrical Engineering (MS).
 </p>
 <p>
