@@ -51,26 +51,24 @@
                 <Timeline position="alternate">
                     <div class="timeline-dot">
                         <a href="{base}/resumeCV/teaching" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>January 2016 - May 2020</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>MIT Physics Department</h3>
+                                    <p style={'margin-top: -20px;'}>Teaching and Lab Assistant</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
 
-                    <TimelineItem>
-
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p style={'margin-top: -1px;'}>January 2016 - May 2020</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 90px;'}>
-                            <h3 style={'margin-top: -2px;'}>MIT EECS & MIT Physics</h3>
-                            <p style={'margin-top: -20px;'}>TA, LA, and grader</p>
-                        </TimelineContent>
-
-                    </TimelineItem>
-                </a>
-
-                </div>
-
+                <div class="timeline-dot">
+                    <a href="{base}/resumeCV/bain" class="timeline-link">
                     <TimelineItem>
                         <TimelineOppositeContent slot="opposite-content">
                             <p style={'margin-top: -1px;'}>August 2017</p>
@@ -80,11 +78,13 @@
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent style={'height: 90px;'}>
-                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/bain">Bain & Company</a></h3>
+                            <h3 style={'margin-top: -2px;'}>Bain & Company</h3>
                             <p style={'margin-top: -20px;'}>Bain Entrepreneurial Leaders Intern</p>
                         </TimelineContent>
                     </TimelineItem>
+                    </a>
 
+                </div>
                     <TimelineItem>
                         <TimelineOppositeContent slot="opposite-content">
                             <p style={'margin-top: -1px;'}>June 2018 - August 2018</p>
