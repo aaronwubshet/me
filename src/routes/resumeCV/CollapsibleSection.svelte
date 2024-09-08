@@ -17,14 +17,14 @@
         >
         {headerText}
 {#if category === "education"}
-<img src="images/king.jpg" alt="King Wubs" style = "width: 30px; height: 30px"/>
-<img src="images/ChampionshipTrohpy.png" alt="Chef Wubs" style = "width: 30px; height: 30px"/>
-<img src="images/king.jpg" alt="King Wubs" style = "width: 30px; height: 30px"/>
-<img src="images/ChampionshipTrohpy.png" alt="Chef Wubs" style = "width: 30px; height: 30px"/>
-<img src="images/king.jpg" alt="King Wubs" style = "width: 30px; height: 30px"/>
-<img src="images/ChampionshipTrohpy.png" alt="Chef Wubs" style = "width: 30px; height: 30px"/>
-<img src="images/king.jpg" alt="King Wubs" style = "width: 30px; height: 30px"/>
-<img src="images/ChampionshipTrohpy.png" alt="Chef Wubs" style = "width: 30px; height: 30px"/>
+<img src="images/cv/king.jpg" alt="King Wubs" style = "width: 30px; height: 30px"/>
+<img src="images/cv/ChampionshipTrohpy.png" alt="Chef Wubs" style = "width: 30px; height: 30px"/>
+<img src="images/cv/king.jpg" alt="King Wubs" style = "width: 30px; height: 30px"/>
+<img src="images/cv/ChampionshipTrohpy.png" alt="Chef Wubs" style = "width: 30px; height: 30px"/>
+<img src="images/cv/king.jpg" alt="King Wubs" style = "width: 30px; height: 30px"/>
+<img src="images/cv/ChampionshipTrohpy.png" alt="Chef Wubs" style = "width: 30px; height: 30px"/>
+<img src="images/cv/king.jpg" alt="King Wubs" style = "width: 30px; height: 30px"/>
+<img src="images/cv/ChampionshipTrohpy.png" alt="Chef Wubs" style = "width: 30px; height: 30px"/>
 {/if}
 <svg viewBox="0 00 20 20" fill="none" >
 <path class="vert" d="M10 1V19" stroke="black" stroke-width="2"/>
