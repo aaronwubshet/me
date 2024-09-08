@@ -20,6 +20,7 @@
 		"d3": "^7.9.0",
 		"mapbox-gl": "^3.5.2",
 		"photoswipe": "^5.4.4",
-		"svelte-photoswipe": "^0.0.2"
+		"svelte-photoswipe": "^0.0.2",
+		"svelte-vertical-timeline": "^1.0.2"
 	}
 }
