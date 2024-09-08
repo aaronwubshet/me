@@ -2,6 +2,7 @@
   background-color: #bcf4d49c;
   --primary-color:rgba(195, 34, 190, 0.8);
   --primary-color-light: rgba(195, 34, 190, 0.2);
+  --primary-color-accent: rgb(250, 187, 120);
   color: #2c201a;
   font-family: 'Reddit Mono'
 }
@@ -13,48 +14,6 @@ body {
   margin-inline: auto;
   padding: auto;
   
-}
-
-/* ul {
-  display: contents;
-}  */
-
-/* dl{
-  display: grid;
-  grid-template-columns: 4 1fr;
-  gap: .5em;
-} */
-
-/* dt{
-  grid-row: 1; 
-  color: lightslategrey; 
-}  */
-
-/* dd{
-  grid-row: 2; 
-  font-size: 1.5em; 
-  margin: 0; 
-} */
-
-/* 
-li {
-  display: contents;
-} */
-
-a.current {
-  color: var(--primary-color);
-  border-bottom-width: .15em;
-  border-bottom-style: solid;
-  border-bottom-color: var(--primary-color);
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  flex: 1;
-  text-align: center;
-  padding: 0.5em;
 }
 
 

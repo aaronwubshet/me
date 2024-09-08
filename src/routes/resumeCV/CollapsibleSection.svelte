@@ -32,7 +32,7 @@
           </svg>
         </button>
     </h3>
-    <div transition:slide={{ delay: 500, duration: 1000 }} class="content" style="overflow: hidden;">
+    <div transition:slide={{ delay: 1, duration: 1 }} class="content" style="overflow: hidden;">
       {#if expanded}
           <slot></slot>
       {/if}

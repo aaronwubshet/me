@@ -51,6 +51,24 @@ a:hover{
   background-color: var(--primary-color-light);
   
 }
+
+
+a.current {
+  color: var(--primary-color);
+  border-bottom-width: .15em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--primary-color);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  flex: 1;
+  text-align: center;
+  padding: 0.5em;
+  color: -webkit-link;
+  cursor: pointer;
+}
 </style>
 
 <slot />

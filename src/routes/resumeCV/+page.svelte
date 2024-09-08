@@ -45,97 +45,118 @@
     </section>
    
     <section class="experiences">
-        <CollapsibleSection headerText={"Work Experience:"} category="work">
+        <CollapsibleSection headerText={"Work Experience: 'we can't pay you, but we can offer you exposure'"} category="work">
             <div class="content">
 
                 <Timeline position="alternate">
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/teaching" class="timeline-link">
+
                     <TimelineItem>
+
                         <TimelineOppositeContent slot="opposite-content">
-                            <p>09:30 am</p>
+                            <p style={'margin-top: -1px;'}>January 2016 - May 2020</p>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot
-                                style={'width: 45px; height: 45px; background-color: #fff; display: flex; justify-content: center; border-color: transparent; '}
-                            >
-                                <img src="https://img.icons8.com/nolan/64/taco.png" />
-                            </TimelineDot>
+                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
                             <TimelineConnector />
                         </TimelineSeparator>
-                        <TimelineContent style={'height: 150px;'}>
-                            <h3>Eat</h3>
-                            <p>You need to eat.</p>
+                        <TimelineContent style={'height: 90px;'}>
+                            <h3 style={'margin-top: -2px;'}>MIT EECS & MIT Physics</h3>
+                            <p style={'margin-top: -20px;'}>TA, LA, and grader</p>
                         </TimelineContent>
+
                     </TimelineItem>
-                
-                    <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p style={'margin-top: -1px;'}>10:30 am</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot style={'background-color: #FEC048;'} />
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent>
-                            <h3 style={'margin-top: -2px;'}>Sleep</h3>
-                            <p style={'margin-top: -2px;'}>You need to take a nap.</p>
-                        </TimelineContent>
-                    </TimelineItem>
-                
-                    <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p>11:00 am</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot
-                                style={'width: 45px; height: 45px; background-color: #fff; display: flex; justify-content: center; border-color: transparent; '}
-                            >
-                                <img src="https://img.icons8.com/doodle/48/000000/svetle.png" />
-                            </TimelineDot>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 200px;'}>
-                            <h3>Code</h3>
-                            <p>Svelte is Awesome.</p>
-                        </TimelineContent>
-                    </TimelineItem>
-                
-                    <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p>01:00 am</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot
-                                style={'width: 45px; height: 65px; background-color: #fff; display: flex; justify-content: center; border-color: transparent; '}
-                            >
-                                <img src="https://img.icons8.com/nolan/64/birthday-cake.png" />
-                            </TimelineDot>
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 200px;'}>
-                            <h3>Snack</h3>
-                            <p>You need to treat yourself.</p>
-                        </TimelineContent>
-                    </TimelineItem>
-                </Timeline>
-                <div class="timeline">
-                    <div class="timeline-event" data-tooltip="Bain & Company">
-                        <span>October 2020</span>
-                    </div>
-                    <div class="timeline-event" data-tooltip="Astra Space Inc">
-                        <span>May 2022</span>
-                    </div>
-                    <div class="timeline-event" data-tooltip="Lab and Teaching Assistant @ MIT">
-                        <span>2019</span>
-                    </div>
-                    <div class="timeline-event" data-tooltip="Signal Engineering Intern at Draper Laboratory">
-                        <span>2021</span>
-                    </div>
-                    <div class="timeline-event" data-tooltip="Electrical Engineering Research Fellow at Lawerence Livermore National Laboratory">
-                        <span>2021</span>
-                    </div>
-                    <div class="timeline-event" data-tooltip="Electromechanical Engineering Research Fellow at Amgen">
-                        <span>2021</span>
-                    </div>
+                </a>
+
                 </div>
+
+                    <TimelineItem>
+                        <TimelineOppositeContent slot="opposite-content">
+                            <p style={'margin-top: -1px;'}>August 2017</p>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent style={'height: 90px;'}>
+                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/bain">Bain & Company</a></h3>
+                            <p style={'margin-top: -20px;'}>Bain Entrepreneurial Leaders Intern</p>
+                        </TimelineContent>
+                    </TimelineItem>
+
+                    <TimelineItem>
+                        <TimelineOppositeContent slot="opposite-content">
+                            <p style={'margin-top: -1px;'}>June 2018 - August 2018</p>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+            
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent style={'height: 90px;'}>
+                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/bain">Bain & Company</a></h3>
+                            <p style={'margin-top: -20px;'}>Associate Consultant Intern</p>
+                        </TimelineContent>
+                    </TimelineItem>
+
+                    <TimelineItem>
+                        <TimelineOppositeContent slot="opposite-content">
+                            <p style={'margin-top: -1px;'}>June 2019 - December 2019</p>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent style={'height: 90px;'}>
+                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/6athesis">Lawrence Livermore National Laboratory</a></h3>
+                            <p style={'margin-top: -20px;'}>Electrical Engineering Research Fellow</p>
+                        </TimelineContent>
+                    </TimelineItem>
+
+                    <TimelineItem>
+                        <TimelineOppositeContent slot="opposite-content">
+                            <p style={'margin-top: -1px;'}>October 2020 - May 2022</p>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent style={'height: 90px;'}>
+                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/bain">Bain & Company</a></h3>
+                            <p style={'margin-top: -20px;'}>Associate Consultant</p>
+                        </TimelineContent>
+                    </TimelineItem>
+
+                    <TimelineItem>
+                        <TimelineOppositeContent slot="opposite-content">
+                            <p style={'margin-top: -1px;'}>May 2022 - Oct 2022</p>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent style={'height: 90px;'}>
+                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/astra">Astra Space Inc</a></h3>
+                            <p style={'margin-top: -20px;'}>Product Manager and Strategy Analyst</p>
+                        </TimelineContent>
+                    </TimelineItem>
+
+                     <TimelineItem>
+                        <TimelineOppositeContent slot="opposite-content">
+                            <p style={'margin-top: -1px;'}>Oct 2022 - May 2023</p>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent style={'height: 90px;'}>
+                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/astra">Bain & Company</a></h3>
+                            <p style={'margin-top: -20px;'}>Consultant</p>
+                        </TimelineContent>
+                    </TimelineItem>
+
+                </Timeline>
             </div>
         </CollapsibleSection>
     </section>
@@ -187,7 +208,7 @@
                     <h2> System Level Thinking</h2>
                     
                     <h3>HW/SW Integration</h3>
-                        <p>My experience managing hardware and software interfaces are evident in <a href="{base}/resumeCV/DroneTracker">A Drone's Eye View</a> and <a href="images/portfolio/jaw/JAW_PRES.pdf">Audio Spectral Visual Effects</a>. Both projects involved multiple group memebers working on distinct portions of a final product, and the success of both projects stemmed from an early definition of the system interfaces. </p>
+                        <p>My experience managing hardware and software interfaces are evident in <a href="{base}/resumeCV/DroneTracker">A Drone's Eye View</a> and <a href="images/portfolio/jaw/JAW_PRES.pdf">Audio Spectral Visual Effects</a>. Both projects involved multiple group members working on distinct portions of a final product, and the success of both projects stemmed from an early definition of the system interfaces. </p>
                     
                    <h3>  Rapid Prototype Development: </h3>
                     <p>I have the ability to quickly take a set of vague product requirements and produce a first draft. Extremely fast turn around times are the norm in management consulting, and with rapid hardware development, my experience at the Hong Kong Innovation Node and the extremely fluid timelines while an intern at <a href="https://www.llnl.gov/">LLNL</a> are extremely relevant</p>
@@ -217,10 +238,15 @@
 </article>
 
 <style>
-	a{
-        color: -webkit-link;
-        text-decoration-line: underline;
-        cursor: auto;
+    .timeline-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+
+	a:hover{
+        text-decoration: underline;
+
     }
 	section {
         margin-bottom: 1em;
@@ -246,81 +272,16 @@
     .column {
         flex: 1;
         padding: 10px;
-        background-color: #f9caad;
+        background-color: var(--primary-color-accent);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
         border-radius: 10px; /* Optional: Add rounded corners */
     }
 
-    .column h2, .column h3 {
-        color: #333;
+    .timeline-dot {
+        transition: transform 0.3s ease;
     }
 
-    .column p {
-        color: #555;
-        text-align: justify;
-    }
-
-    .column a {
-        color: #007BFF;
-        text-decoration: none;
-    }
-
-    .column a:hover {
-        text-decoration: underline;
-    }
-
-    .timeline {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        margin: 20px 0;
-        padding: 10px 0;
-        list-style: none;
-        border-top: 5px solid #cd84ef;
-    }
-
-    .timeline-event {
-        position: relative;
-        text-align: center;
-        text-wrap: normal;
-        cursor: pointer;
-        flex: 1;
-    }
-
-    .timeline-event span {
-        display: block;
-        margin-top: 10px;
-        font-weight: bold;
-        color: #007BFF;
-    }
-
-    .timeline-event::before {
-        content: '';
-        position: absolute;
-        top: -23px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 20px;
-        height: 20px;
-        background-color: #f9caad;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        box-shadow: 0 0 0 2px #f9caad;
-    }
-
-    .timeline-event:hover::after {
-        content: attr(data-tooltip);
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 5px 10px;
-        background-color: #333;
-        color: #fff;
-        border-radius: 5px;
-        white-space: normal;
-        font-size: 12px;
-        z-index: 1;
+    .timeline-dot:hover {
+        transform: scale(1.1);
     }
 </style>
