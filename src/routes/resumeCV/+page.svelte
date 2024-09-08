@@ -13,7 +13,7 @@
 
 <article class="resume">
 
-    <h1><a href="images/cv.pdf"><span> tl;dr </span> </a> </h1>
+    <h1><a href="images/cv/cv.pdf"><span> tl;dr </span> </a> </h1>
 
 
     <section class="education">
@@ -67,26 +67,29 @@
     </section>
 
     <section class="projects">
-        <CollapsibleSection headerText={"Projects:"} category="projects">
+        <CollapsibleSection headerText={"Projects: I (usually) finish what I start..."} category="projects">
             <div class="content">
                 <ul>
+                    <li><a href="{base}/resumeCV/lgo">LGO Thesis: Coming Soon<sup>TM</sup></a></li>
                     <li><a href="{base}/resumeCV/datavis">Who Owns Boston</a> </li>
-                    <li><a href="{base}/resumeCV/374">Analysis and Design of Digital Integrated Circuits Final Design Project</a></li>
                     <li><a href="{base}/resumeCV/301">Solid State Circuits Final Design Project</a></li>
-                    <li><a href="{base}/resumeCV/334">Power Electronics Final Design Project</a></li>
-                    <li><a href="images/cv/jaw/Final Project Report.pdf">JAW Dropping Audio Spectral Visual Effects</a></li>
                     <li><a href="{base}/resumeCV/6athesis">An Investigation of USRP FPGA as a platform for Quantum Sensing and Control</a> </li>
                     <li><a href="{base}/resumeCV/334">Power Electronics Final Design Project</a></li>
-                    <li><a href="{base}/resumeCV/lgo">LGO Thesis: Coming Soon<sup>TM</sup></a></li>
-                    <li><a href="https://github.com/aaronwubshet/noise_cancellation_matlab_model">Noise Cancellation Feedback System Data Analysis</a></li>
+                    <li><a href="{base}/resumeCV/836">Sensor Systems for Interactive Environments Final Project</a> </li> 
+                    <li><a href="{base}/resumeCV/085">Computational Science and Engineering Final Project</a> </li> 
+                    <li><a href="{base}/resumeCV/374">Analysis and Design of Digital Integrated Circuits Final Design Project</a></li>
+                    <li><a href="{base}/resumeCV/012">Device Physics Final Project</a> </li> 
+                    <li><a href="{base}/resumeCV/013">Electromagnetic Fields and Energy Final Project</a> </li> 
+                    <li><a href="{base}/resumeCV/memsi"> TrueLink @ MEMSI</a></li>
                     <li><a href="{base}/resumeCV/DroneTracker">A Drone's Eye View</a> </li>
+                    <li><a href="{base}/resumeCV/111">JAW Dropping Audio Spectral Visual Effects</a></li>
                     <li><a href="{base}/resumeCV/SpeakerTracker">Mounted Loudspeaker Tracking System</a> </li> 
-                    <li><a href="images/cv/trulink/trulink.pdf"> TrueLink @ MEMSI</a></li>
-                    <li>aquadio</li>
+                    <li><a href="https://github.com/aaronwubshet/noise_cancellation_matlab_model">Noise Cancellation Feedback System Data Analysis</a></li>
+                    
                 </ul>
             </div>
         </CollapsibleSection>
-        </section>
+    </section>
         
     <section class="skills">
         <CollapsibleSection headerText={"Skills: I don't know who you are. I don't know what you want. If you are looking for ransom I can tell you I don't have money, but what I do have are a very particular set of skills. Skills I have acquired over a very long career*..."} category="skills">
