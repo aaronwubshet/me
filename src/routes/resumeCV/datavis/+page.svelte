@@ -340,19 +340,19 @@
 	<p>Eviction represents a forceful action capable of displacing individuals from their communities and familial networks, disrupting access to education and healthcare, and plunging them into a cycle of financial uncertainty. It serves as a catalyst for housing instability and inequality, both on a national and local scale. Previous research has demonstrated that corporate and absentee landlords are more prone to evicting tenants, resulting in adverse consequences for housing stability. This pattern persists across various neighborhoods in the greater Boston area. It is clear from the graph below that this problem is only getting worse. Quantities of evictions have steadily increased from 2020 to 2023.</p>
 
 	<p style="display: flex; justify-content: center;">	
-		<img src="../images/evictions_over_time.png" alt="table of top 10 owners in boston" style = "width: 100%"/>
+		<img src="../images/cv/datavis/evictions_over_time.png" alt="table of top 10 owners in boston" style = "width: 100%"/>
 	</p>
 
 	<p>The gradual rise in eviction rates correlates significantly with the growing prevalence of corporate property ownership in recent years as displayed in the graph below. Additionally, heightened levels of absentee, institutional ownership of rental units by speculative investors corresponded with increased eviction rates. This aligns with extensive empirical evidence illustrating that concentrated corporate property ownership amplifies housing inequities. A mere 1 percentage-point rise in rental units owned by institutional owners was linked to a more than 2% surge in the filing rate [Robsky Huntly et. al., 2022].</p>
 
 	<p style="display: flex; justify-content: center;">	
-		<img src="../images/corpown.png" alt="corporate ownership over time" style = "width: 100%"/>
+		<img src="../images/cv/datavis/corpown.png" alt="corporate ownership over time" style = "width: 100%"/>
 	</p>
 
 	<p>The data depicted in the graph illustrates a clear trend indicating that eviction rates tend to be notably higher for households with lower incomes. Over the span of four years, from 2020 to 2023, the graph portrays a consistent clustering of data points between the income range of $15,000 to $40,000. This clustering suggests that households with median incomes falling within this range are disproportionately affected by evictions in the greater Boston area. The consistent pattern underscores the correlation between lower income levels and heightened vulnerability to eviction, emphasizing the pressing need for targeted interventions to address housing insecurity among economically disadvantaged populations.</p>
 
 	<p style="display: flex; justify-content: center;">	
-		<img src="../images/eviction_and_income.png" alt="eviction and income" style= "width: 100%"/>
+		<img src="../images/cv/datavis/eviction_and_income.png" alt="eviction and income" style= "width: 100%"/>
 	</p>
 </div>
 
