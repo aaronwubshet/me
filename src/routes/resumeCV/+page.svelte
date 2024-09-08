@@ -37,31 +37,23 @@
     <section class="experiences">
         <CollapsibleSection headerText={"Work Experience:"} category="work">
             <div class="content">
-                <p>Biotechnology</p>
-                <p><a href="{base}/resumeCV/bain">Electromechanical Engineering @ Amgen</a></p>
-
-                <time>June 2024</time> to <time>Dec 2024</time>
-                    
-                <li>Researched electromechanical drug delivery device market focusing on on-body injectors to identify key trends, features, and landscape dynamics</li>
-                <li>Built strategic initiatives for Amgen device team to use as input in their feature selection process to boost device adoption by drug teams and patients   </li>
-                <li> Enacted case studies to demonstrate technical value of temperature modeling and sensing capabilities on an autoinjector through RNN based prediction </li>
-
-                <p>Consulting</p>
-                <p><a href="{base}/resumeCV/bain">Managmeent Consulting @ Bain</a></p>
-
-                <time>September 2020</time> to <time>May 2023</time>
-                    
-                        <li>Helped define the 3rd party MRO strategy for a large A&D client</li>
-                        <li>Supported procurement cost rationalize SWAT support team at IT services firm</li>
-                        <li>Spearheaded financial modeling and market research (survey based and market participant interview based) workflows while managing 1-2 people and conducting company or industry due diligence primarily in healthcare</li>
-                        <li>Owned supply chain analysis, helped to stand up cost visibility PMO, and investigated potential volume scale benefits with a heavy industrials and manufacturing end client</li>
-                
-                <p><a href="{base}/resumeCV/astra">Product Management @ Astra</a></p>
-                <time>June 2022</time> to <time>Oct 2022</time>
-                    <ul>
-                        <li>Investigate technical feasibility and market appetite for new space products and build business case for funding decision for senior leadership team</li>
-                        <li>Collaborated with spacecraft team on vendor negotiations, system architecture, and work planning</li>                
-                    </ul>
+                <div class="timeline">
+                    <div class="timeline-event" data-tooltip="Bain & Company">
+                        <span>October 2020</span>
+                    </div>
+                    <div class="timeline-event" data-tooltip="Astra Space Inc">
+                        <span>May 2022</span>
+                    </div>
+                    <div class="timeline-event" data-tooltip="Job at Company C">
+                        <span>2019</span>
+                    </div>
+                    <div class="timeline-event" data-tooltip="Job at Company D">
+                        <span>2021</span>
+                    </div>
+                    <div class="timeline-event" data-tooltip="Job at Company D">
+                        <span>2021</span>
+                    </div>
+                </div>
             </div>
         </CollapsibleSection>
     </section>
@@ -193,5 +185,60 @@
 
     .column a:hover {
         text-decoration: underline;
+    }
+
+    .timeline {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin: 20px 0;
+        padding: 10px 0;
+        list-style: none;
+        border-top: 5px solid #cd84ef;
+    }
+
+    .timeline-event {
+        position: relative;
+        text-align: center;
+        text-wrap: normal;
+        cursor: pointer;
+        flex: 1;
+    }
+
+    .timeline-event span {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #007BFF;
+    }
+
+    .timeline-event::before {
+        content: '';
+        position: absolute;
+        top: -23px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 20px;
+        background-color: #f9caad;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 0 0 0 2px #f9caad;
+    }
+
+    .timeline-event:hover::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5px 10px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        white-space: normal;
+        font-size: 12px;
+        z-index: 1;
     }
 </style>
