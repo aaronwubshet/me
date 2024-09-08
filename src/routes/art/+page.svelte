@@ -11,7 +11,7 @@
     <a href="{base}/art/photography" class="card">
         <div class="card-content">
             <h1>Photography</h1>
-			<img src="images/art/photography/splashphoto.jpg" alt="Photography" style = "width:100%; height:100%"/>
+			<img src="images/art/photography/t4.jpg" alt="Photography" style = "width:100%; height:100%"/>
         </div>
     </a>
     <a href="{base}/art/poetry" class="card">
@@ -20,23 +20,32 @@
 			<img src="images/art/poetry/poetry_splash.png" alt="Poetry Splash" style = "width:100%; height:100%"/>
         </div>
     </a>
+	<div class="video-container card">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=wOsAB-2kLuklYcXw&amp;list=PLfV1j1QXBK07MwNjN7cbl5Jc_al-gpRRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+	</div>
+	<div class="video-container card">
+		<video width="800" height="700" controls poster="images/art/guitar_thumbnail.png">
+			<source src="images/art/guitar.mov" type="video/mp4">
+		</video>
+	</div>
+
+	
 </div>
 
-<div class="video-container">
-    <iframe width="800" height="700" src="images/art/guitar.mov" title="guitar" frameborder="10" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 <style>
     .card-container {
         display: flex;
-        justify-content: space-around;
+		flex-direction: column;
+        justify-content: center;
         align-items: center;
-        height: 100vh;
+        gap: 20px;
+		padding: 20px;
     }
-
-    .card {
+	.card {
         display: block;
-        width: 40%;
+        width: 80%; /* Adjust the width as needed */
         padding: 20px;
         margin: 10px;
         text-align: center;
@@ -53,20 +62,14 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
-    .card-content h2 {
+    .card-content h1 {
         margin: 0;
         font-size: 24px;
     }
 
-    a {
-        color: -webkit-link;
-        text-decoration-line: underline;
-        cursor: auto;
-    }
-	.video-container {
+    .video-container {
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
-		margin-left:20px;
+        margin-top: 20px;
     }
 </style>
