@@ -77,7 +77,7 @@
 </div>
 	
 <p>
-	<b>Lifelong learner</b> - Growing up I never really had the space or encouragement to explore hands on engineering driven passions. My parents mostly focused on ensuring I understood and learned the appropriate theory and conceptual ideas in the classroom. However, I was fortunate enough to go to a STEM focused high school called GSMST that did have a more robust engineering curriculum. From there I went off to Boston to study at MIT<a href={resumeURL}> (and I kept coming back)</a>for my undergraduate degrees, a couple masters in electrical engineering, and an MBA. I continue to enjoy learning new things both related to engineering and in other domains. Here are a handful of things I am currently learning or want to learn more about!</p>
+	<b>Lifelong learner</b> - Growing up I never really had the space or encouragement to explore hands on engineering driven passions. My parents mostly focused on ensuring I understood and learned the appropriate theory and conceptual ideas in the classroom. However, I was fortunate enough to go to a STEM focused high school called  <a href="{base}/resumeCV/gsmst" >GSMST</a> that did have a more robust engineering curriculum. From there I went off to Boston to study at MIT<a href={resumeURL}> (and I kept coming back)</a>for my undergraduate degrees, a couple masters in electrical engineering, and an MBA. I continue to enjoy learning new things both related to engineering and in other domains. Here are a handful of things I am currently learning or want to learn more about!</p>
 		<div style="display: flex;">
 			<div style="flex: 1;">
 				<ul>

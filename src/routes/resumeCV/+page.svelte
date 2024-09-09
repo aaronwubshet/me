@@ -48,7 +48,7 @@
                                 </TimelineContent>
                             </TimelineItem>
                     </div>
-                    <div class="timeline-dot tooltip" data-tooltip="hi" >
+                    <div class="timeline-dot tooltip" data-tooltip="Mickey Mouse Ring" >
                         <TimelineItem>
                             <TimelineOppositeContent slot="opposite-content">
                                 <p style={'margin-top: -1px;'}>June 2019 - May 2020</p>
@@ -63,22 +63,7 @@
                             </TimelineContent>
                         </TimelineItem>
                     </div>
-                    <div class="timeline-dot">
-                        <TimelineItem>
-                            <TimelineOppositeContent slot="opposite-content">
-                                <p style={'margin-top: -1px;'}>June 2019 - May 2020</p>
-                            </TimelineOppositeContent>
-                            <TimelineSeparator>
-                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
-                                <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent style={'height: 90px;'}>
-                                <h3 style={'margin-top: -2px;'}>MIT</h3>
-                                <p style={'margin-top: -20px;'}>Masters of Engineering in EECS</p>
-                            </TimelineContent>
-                        </TimelineItem>
-                    </div>
-                    <div class="timeline-dot">
+                    <div class="timeline-dot tooltip" data-tooltip="Cleveland! This is for you!" >
                         <TimelineItem>
                             <TimelineOppositeContent slot="opposite-content">
                                 <p style={'margin-top: -1px;'}>September 2015 - May 2019</p>
@@ -94,7 +79,9 @@
                         </TimelineItem>
                     </div>
 
-                    <div class="timeline-dot">
+                    <div class="timeline-dot tooltip" data-tooltip="In-season tournament banner in the rafters" >
+                        <a href="{base}/resumeCV/gsmst" class="timeline-link">
+
                         <TimelineItem>
                             <TimelineOppositeContent slot="opposite-content">
                                 <p style={'margin-top: -1px;'}>September 2011 - May 2015</p>
@@ -102,24 +89,15 @@
                             <TimelineSeparator>
                                 <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
                             </TimelineSeparator>
-                            <TimelineContent style={'height: 90px;'}>
+                            <TimelineContent style={'height: 0px;'}>
                                 <h3 style={'margin-top: -2px;'}>GSMST</h3>
                                 <p style={'margin-top: -20px;'}>High School Diploma</p>
                             </TimelineContent>
                         </TimelineItem>
+                        </a>
                     </div>
                 </Timeline>
-                <ul>
-                    <li> <time>September 2015</time> to <time>May 2019</time>: <b> Bachelors of Science in Electrical Engineering</b> <em>"Cleveland! This is for you!"</em></li>
-                    <li> <time>June 2019</time> to <time>May 2020</time>: <b>Masters of Engineering in Electrical Engineering</b> <em>Mickey Mouse Ring</em></li>
-                    <li> <time>June 2023</time> to <time>May 2025</time>:<b>Masters of Science in Electrical Engineering*</b> <em> "Taking my talents to south beach"^</em></li>
-                    <li> <time>June 2023</time> to <time>May 2025</time>: <b>Masters of Business Administration*</b><em>"Not 1...not 2...not 3...not 4..."^</em> </li>
-                    <li> <time>August 2011</time> to <time>May 2015</time>: <b>High School Diploma</b> <em>In-season tournament banner in the rafters</em></li>
-                </ul>
-                    <a href="https://lgo.mit.edu">*MS and MBA were part of a dual degree program called Leaders of Global Operations (LGO)</a>
-                    <br>
-                    <a href="https://en.wikipedia.org/wiki/Big_Three_(Miami_Heat)">^the Miami Heat super team of the early 2010s.</a>
-                
+                <a href="https://lgo.mit.edu">*MS and MBA were part of a dual degree program called Leaders of Global Operations (LGO)</a>
             </div>
         </CollapsibleSection>
     </section>
@@ -490,26 +468,30 @@
                     <h2> System Level Thinking</h2>
                     
                     <h3>HW/SW Integration</h3>
-                        <p>My experience managing hardware and software interfaces are evident in <a href="{base}/resumeCV/DroneTracker">A Drone's Eye View</a> and <a href="images/portfolio/jaw/JAW_PRES.pdf">Audio Spectral Visual Effects</a>. Both projects involved multiple group members working on distinct portions of a final product, and the success of both projects stemmed from an early definition of the system interfaces. </p>
+                        <p>I have experience managing hardware - software interfaces (as is evident in <a href="{base}/resumeCV/DroneTracker">A Drone's Eye View</a> and <a href="images/portfolio/jaw/JAW_PRES.pdf">Audio Spectral Visual Effects</a>) where system components have to be developed separately before being brought together. While simulation and and forethought can help avoid a lot of headaches, overcoming the challenges associated bringing hardware and software together is a fun task to do in real time in an iterative manner. Also, both projects involved multiple group members working on distinct portions of a final product, and the success of both projects stemmed from an early definition of the system interfaces. </p>
                     
                    <h3>  Rapid Prototype Development: </h3>
-                    <p>I have the ability to quickly take a set of vague product requirements and produce a first draft. Extremely fast turn around times are the norm in management consulting, and with rapid hardware development, my experience at the Hong Kong Innovation Node and the extremely fluid timelines while an intern at <a href="https://www.llnl.gov/">LLNL</a> are extremely relevant</p>
+                    <p>I have the ability to quickly take a set of vague product requirements and produce a first draft. Extremely fast turn around times are the norm in both management consulting and software development (and I would agree can be valuable with hardware development as well). My experience at the <a href = "{base}/resumeCV/memsi">Hong Kong Innovation Node </a> and the extremely fluid timelines while an intern at LLNL working on my <a href="{base}/resumeCV/6athesis">6A thesis</a> both are examples of my ability to quickly breakdown a situation and produce results</p>
+
                   <h3>  System Modeling</h3>
-                    <p>Through a wide range of projects and experiences including multiple feedback controls projects and USRP projects, I developed my system modeling abilities extensively. In the broader engineering sense, I began to appreciate the value of "good enough" system modeling. The key understanding being the trade off between accuracy and complexity once the diminishing returns of each additional bit of complexity is added.</p>
+                    <p>Through a wide range of projects and experiences including multiple feedback controls projects and USRP projects, I developed my system modeling abilities extensively. My internships at <a href = "{base}/resumeCV/draper">Draper</a> modeling LTE signals and class projects in <a href="{base}/resumeCV/085">Computational Science & Engineering </a> and <a href="{base}/resumeCV/012">Device Physics </a> demonstrate my skills in extracting the key metrics and system dynamics to model and track in order to better understand a physical system. I have learned to balance complexity and accuracy depending on the demands of the situation as well as leverage analogous existing system models when helpful (think RLC circuit as a dampened spring system).</p>
                 </div>
 
                 <div class="column" style="flex: 1 ">
 
                     <h2>Managerial Decision Making</h2>
 
-                    <h3>Logistics and Resource Allocation</h3>
-                    <p>My roles with in <a href="http://consulting.mit.edu/">MCG</a> and <a href="https://pkt.mit.edu/">PKT</a> demonstrate my ability to take on logistical responsibility for events as well as efficiently utilize limited resources to please as many members as much as possible. The phrasing of each problem as an optimization that can be reached allows me to utilize my technical skillset for non-technical situations.</p>
-            
+
                     <h3>Teaching and Mentorship</h3>
-                    <p>As a grader, teaching assistant, and lab assistant for a half dozen course in EECS, I garnered a deep appreciation of what it really means to explain a concept <i>well</i>. It was after going through my freshmen year struggling, that I began to understand the complexities behind effective instruction and mentorship. As a senior, I pride myself in my ability to distill many years of experiences into useful and actionable intelligence for younger students.</p>
+                    <p>I've supported the course staff of over half a dozen courses in the MIT EECS and Physics departments as a grader, teaching assistant, and lab assistant. During this time, I garnered a deep appreciation of what it really means to explain a concept <i>well</i>. It was after going through my freshmen year struggling, that I began to understand the complexities behind effective instruction and mentorship. This carried over into my professional career managing direct reports who are trying to learn how to do the job. My goal then was to provide just enough support for my direct reports to understand how to complete a job but also learn how to get better at the job setting them up for future success.</p>
+
+
+                    <h3>Modeling and Management </h3>
+                    <p>My roles with in <a href="{base}/resumeCV/bain">Bain</a> and <a href="{base}/resumeCV/astra">Astra</a> demonstrate my ability to take on responsibility for identifying complex business and product management challenges, develop a plan to address those challenges, and then execute that plan effectively while utilizing limited resources. I've achieve positive outcomes by leveraging my skills in financial modeling, stakeholder management, and operations focused mindset. One key benefit of my technical background is the ability to frame problems as optimizations with a variety of external and internal constraints that must be satisfied.</p>
+            
                     
                     <h3>Creative Adaptability</h3>
-                        <p>My single greatest skill is my adaptability. Reading the complexity of a situation, whether it be client interactions or electron interactions, I can adapt to changing requirements and environments all while still practicing the other skills mentioned here. Being able to adapt to unexpected and uncontrollable circumstances allows me to tap into my creative side something I usually utilize more when I'm writing poetry, to solve technical problems</p>
+                        <p>Perhaps my single greatest skill is my adaptability. Reading the complexity of a situation, whether it be client interactions or electron interactions, I can adapt to changing requirements and environments all while still practicing the other skills mentioned here. Being able to adapt to unexpected and uncontrollable circumstances allows me to tap into my creative side something I usually utilize more when I'm writing <a href="{base}/art/poetry">poetry</a>, to solve technical problems</p>
                 </div>
             </div>
                     
@@ -523,8 +505,8 @@
     .tooltip::after {
         content: attr(data-tooltip);
         position: absolute;
-        top: 25%; /* Position above the dot */
-        left: 50%;
+        top: 33%; /* Position above the dot */
+        left: 51%;
         /* transform: translateX(-100%); */
         background-color: #333;
         color: #fff;

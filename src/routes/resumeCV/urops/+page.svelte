@@ -43,18 +43,6 @@
 </div>
 
 <style>
-    .text-columns {
-        display: flex;
-        gap: 20px; /* Add space between the columns */
-        padding: 20px;
-    }
-    .column {
-        flex: 1;
-        padding: 10px;
-        background-color: var(--primary-color-accent);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-        border-radius: 10px; /* Optional: Add rounded corners */
-    }
     .pdf-container {
         display: flex;
         justify-content: center;
