@@ -128,7 +128,7 @@
 		</div>
 	</div>
 
-<p> If you're still reading at this point then you're attention span has probably not been adversely impacted by short form video content too significantly so congratulations. Click around the website and you can get a better look at my work experience, projects (technical, business, and ~art~), skills (or lack thereof), and even send me an email via the contact me page. Or you can just email me at hello@aaronwubshet.com. But I worked hard trying to figure out how to make the the contact me page (so many AWS SES tutorials ໒( ಥ Ĺ̯ ಥ )७ ) so I'd appreciate if you use that. 
+<p> If you're still reading at this point then you're attention span has probably not been adversely impacted by short form video content too significantly so congratulations. Click around the website and you can get a better look at my work experience, projects (technical, business, and ~art~), skills (or lack thereof), and even send me an email via the contact me page. Or you can just email me at hello@aaronwubshet.com. <s>But I worked hard trying to figure out how to make the the contact me page (so many AWS SES tutorials ໒( ಥ Ĺ̯ ಥ )७ ) so I'd appreciate if you use that. </s> I broke it so just email me.
 </p>
 
 <img src="images/landing/aaron.jpeg" alt="Aaron Wubshet" style = "width: 50%; height: 50%"/>

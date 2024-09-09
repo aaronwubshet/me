@@ -6,23 +6,21 @@
     let currentImageIndex = 0;
     let isModalOpen = false;
 
-	const images = [
-        "../images/art/photography/t1.jpeg",
-		"../images/art/photography/t2.jpeg",
-		"../images/art/photography/t3.jpeg",
-		"../images/art/photography/t4.jpg",
-		"../images/art/photography/t5.jpeg",
-		"../images/art/photography/t6.jpg",
-		"../images/art/photography/t7.jpg",
-		"../images/art/photography/t8.jpg",
-		"../images/art/photography/t9.jpg",
-		"../images/art/photography/t10.jpg",
-		"../images/art/photography/t11.jpg",
-		"../images/art/photography/t12.jpg",
-		"../images/art/photography/t13.jpg",
-		"../images/art/photography/t14.jpg",
-    ];
+	
+    // Dynamically import all images from the specified folder
+    const images = [];
+ 
+    for (let i = 1; i <= 30; i++) {
+        images.push(`../images/art/photography/t${i}.jpg`);
+    }
 
+
+
+    // Shuffle the images array
+    if (isModalOpen) {
+        images.sort(() => Math.random() - 0.5);
+    }
+    
     function openModal(index) {
         currentImageIndex = index;
         isModalOpen = true;

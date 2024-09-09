@@ -1,9 +1,9 @@
 <svelte:head>
 	<title>Say Hello</title>
 </svelte:head>
-
+<h1>pls fix, thx.</h1>
 <div class="container">
-    <h1>Don't be shy ヽ(•‿•)ノ</h1>
+    <h2>Don't be shy ヽ(•‿•)ノ</h2>
         <form method="GET" name="email-form">
             
             <label for="subject">Subject:</label> 
@@ -16,12 +16,7 @@
         </form>
 </div>
 <style>
-    /* body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-    } */
+   
     .container {
         max-width: 600px;
         margin: 0 auto;
