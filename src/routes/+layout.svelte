@@ -66,7 +66,7 @@ a {
   flex: 1;
   text-align: center;
   padding: 0.5em;
-  color: -webkit-link;
+  color: black;
   cursor: pointer;
 }
 </style>

@@ -29,6 +29,86 @@
     <section class="education">
         <CollapsibleSection headerText={"Education: I went to MIT. A lot. I have as many MIT degrees as Lebron has NBA rings."} category="education">
             <div class="content">
+                <Timeline position="left">
+
+
+                    <div class="timeline-dot tooltip" data-tooltip="Taking my talents to south beach &#013;Not 1...not 2...not 3...not 4..." >
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>June 2023 - May 2025</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>MIT</h3>
+                                    <p style={'margin-top: -20px;'}>Masters of Business Administration<sup>*</sup></p>
+                                    <p style={'margin-top: -20px;'}>Masters of Science in EECS<sup>*</sup></p>
+                                </TimelineContent>
+                            </TimelineItem>
+                    </div>
+                    <div class="timeline-dot tooltip" data-tooltip="hi" >
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>June 2019 - May 2020</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>MIT</h3>
+                                <p style={'margin-top: -20px;'}>Masters of Engineering in EECS</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                    </div>
+                    <div class="timeline-dot">
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>June 2019 - May 2020</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>MIT</h3>
+                                <p style={'margin-top: -20px;'}>Masters of Engineering in EECS</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                    </div>
+                    <div class="timeline-dot">
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>September 2015 - May 2019</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>MIT</h3>
+                                <p style={'margin-top: -20px;'}>Bachelor's of Science in EECS</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>September 2011 - May 2015</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>GSMST</h3>
+                                <p style={'margin-top: -20px;'}>High School Diploma</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                    </div>
+                </Timeline>
                 <ul>
                     <li> <time>September 2015</time> to <time>May 2019</time>: <b> Bachelors of Science in Electrical Engineering</b> <em>"Cleveland! This is for you!"</em></li>
                     <li> <time>June 2019</time> to <time>May 2020</time>: <b>Masters of Engineering in Electrical Engineering</b> <em>Mickey Mouse Ring</em></li>
@@ -47,13 +127,268 @@
     <section class="experiences">
         <CollapsibleSection headerText={"Work Experience: 'we can't pay you, but we can offer you exposure'"} category="work">
             <div class="content">
+                <Timeline position="left">
 
-                <Timeline position="alternate">
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/lgo" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>June 2024 - December 2024</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>Amgen</h3>
+                                    <p style={'margin-top: -20px;'}>Electromechanical Engineering Research Fellow</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/bain" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>Oct 2022 - May 2023</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>Bain & Company</h3>
+                                    <p style={'margin-top: -20px;'}>Consultant</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/astra" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>May 2022 - Oct 2022</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>Astra Space Inc</h3>
+                                    <p style={'margin-top: -20px;'}>Product Manager and Strategy Analyst</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/bain" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>October 2020 - May 2022</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>Bain & Company</h3>
+                                    <p style={'margin-top: -20px;'}>(Senior) Associate Consultant</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
                     <div class="timeline-dot">
                         <a href="{base}/resumeCV/teaching" class="timeline-link">
                             <TimelineItem>
                                 <TimelineOppositeContent slot="opposite-content">
-                                    <p style={'margin-top: -1px;'}>January 2016 - May 2020</p>
+                                    <p style={'margin-top: -1px;'}>January 2020 - June 2020</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>MIT EECS Department</h3>
+                                    <p style={'margin-top: -20px;'}>TA/Course Staff/LA/Grader</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/6athesis" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>June 2019 - December 2019</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>Lawrence Livermore National Laboratory</h3>
+                                    <p style={'margin-top: -20px;'}>Electrical Engineering Research Fellow</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/teaching" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>August 2018 - May 2019</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>MIT EECS Department</h3>
+                                    <p style={'margin-top: -20px;'}>TA/Course Staff/LA/Grader</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/bain" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>June 2018 - August 2018</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                    
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>Bain & Company</h3>
+                                    <p style={'margin-top: -20px;'}>Associate Consultant Intern</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/teaching" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>August 2017 - May 2018</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>MIT EECS Department</h3>
+                                    <p style={'margin-top: -20px;'}>TA/Course Staff/LA/Grader</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/bain#BEL" class="timeline-link">
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>August 2017</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>Bain & Company</h3>
+                                <p style={'margin-top: -20px;'}>Bain Entrepreneurial Leaders Intern</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                        </a>
+
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/draper#intern" class="timeline-link">
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>June 2017 - August 2017</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>Draper Laboratory</h3>
+                                <p style={'margin-top: -20px;'}>Signal Engineering Intern</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/urops#SSL" class="timeline-link">
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>June 2017 - August 2017</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>Space, Telecommunications, Astronomy and Radiation Laboratory / Space Systems Laboratory at MIT</h3>
+                                <p style={'margin-top: -20px;'}>Undergraduate researcher</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/teaching" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>February 2017 - May 2017</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>MIT EECS Department</h3>
+                                    <p style={'margin-top: -20px;'}>TA/Course Staff/LA/Grader</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/draper" class="timeline-link">
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>January 2017</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>Draper Laboratory</h3>
+                                <p style={'margin-top: -20px;'}>Signal Engineering Extern</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                        </a>
+                    </div>
+
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/teaching" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>February 2016 - May 2016</p>
                                 </TimelineOppositeContent>
                                 <TimelineSeparator>
                                     <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
@@ -61,100 +396,47 @@
                                 </TimelineSeparator>
                                 <TimelineContent style={'height: 90px;'}>
                                     <h3 style={'margin-top: -2px;'}>MIT Physics Department</h3>
-                                    <p style={'margin-top: -20px;'}>Teaching and Lab Assistant</p>
+                                    <p style={'margin-top: -20px;'}>TA/Course Staff/LA/Grader</p>
                                 </TimelineContent>
                             </TimelineItem>
                         </a>
                     </div>
 
-                <div class="timeline-dot">
-                    <a href="{base}/resumeCV/bain" class="timeline-link">
-                    <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p style={'margin-top: -1px;'}>August 2017</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 90px;'}>
-                            <h3 style={'margin-top: -2px;'}>Bain & Company</h3>
-                            <p style={'margin-top: -20px;'}>Bain Entrepreneurial Leaders Intern</p>
-                        </TimelineContent>
-                    </TimelineItem>
-                    </a>
+                    <div class="timeline-dot">
+                        <a href="{base}/resumeCV/urops" class="timeline-link">
+                        <TimelineItem>
+                            <TimelineOppositeContent slot="opposite-content">
+                                <p style={'margin-top: -1px;'}>January 2016 - May 2016</p>
+                            </TimelineOppositeContent>
+                            <TimelineSeparator>
+                                <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent style={'height: 90px;'}>
+                                <h3 style={'margin-top: -2px;'}>Research Laboratory of Electronics at MIT</h3>
+                                <p style={'margin-top: -20px;'}>Undergraduate researcher</p>
+                            </TimelineContent>
+                        </TimelineItem>
+                        </a>
+                    </div>
 
-                </div>
-                    <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p style={'margin-top: -1px;'}>June 2018 - August 2018</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
-            
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 90px;'}>
-                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/bain">Bain & Company</a></h3>
-                            <p style={'margin-top: -20px;'}>Associate Consultant Intern</p>
-                        </TimelineContent>
-                    </TimelineItem>
-
-                    <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p style={'margin-top: -1px;'}>June 2019 - December 2019</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 90px;'}>
-                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/6athesis">Lawrence Livermore National Laboratory</a></h3>
-                            <p style={'margin-top: -20px;'}>Electrical Engineering Research Fellow</p>
-                        </TimelineContent>
-                    </TimelineItem>
-
-                    <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p style={'margin-top: -1px;'}>October 2020 - May 2022</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 90px;'}>
-                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/bain">Bain & Company</a></h3>
-                            <p style={'margin-top: -20px;'}>Associate Consultant</p>
-                        </TimelineContent>
-                    </TimelineItem>
-
-                    <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p style={'margin-top: -1px;'}>May 2022 - Oct 2022</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 90px;'}>
-                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/astra">Astra Space Inc</a></h3>
-                            <p style={'margin-top: -20px;'}>Product Manager and Strategy Analyst</p>
-                        </TimelineContent>
-                    </TimelineItem>
-
-                     <TimelineItem>
-                        <TimelineOppositeContent slot="opposite-content">
-                            <p style={'margin-top: -1px;'}>Oct 2022 - May 2023</p>
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent style={'height: 90px;'}>
-                            <h3 style={'margin-top: -2px;'}><a href="{base}/resumeCV/astra">Bain & Company</a></h3>
-                            <p style={'margin-top: -20px;'}>Consultant</p>
-                        </TimelineContent>
-                    </TimelineItem>
+                    <div class="timeline-dot">
+                        <a href="https://www.pmd.org" class="timeline-link">
+                            <TimelineItem>
+                                <TimelineOppositeContent slot="opposite-content">
+                                    <p style={'margin-top: -1px;'}>January 2016</p>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={'background-color: var(--primary-color-accent);'}/>
+                                    <!-- <TimelineConnector /> -->
+                                </TimelineSeparator>
+                                <TimelineContent style={'height: 90px;'}>
+                                    <h3 style={'margin-top: -2px;'}>People Making a Difference</h3>
+                                    <p style={'margin-top: -20px;'}>Federal Work Study Volunteer Coordinator</p>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </a>
+                    </div>
 
                 </Timeline>
             </div>
@@ -238,6 +520,27 @@
 </article>
 
 <style>
+    .tooltip::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        top: 25%; /* Position above the dot */
+        left: 50%;
+        /* transform: translateX(-100%); */
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        white-space: pre;
+        font-size: 12px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+
+    .tooltip:hover::after {
+        opacity: 1;
+    }
+    
     .timeline-link {
         text-decoration: none;
         color: inherit;

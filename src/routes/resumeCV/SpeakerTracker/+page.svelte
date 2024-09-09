@@ -9,6 +9,8 @@
                        
 <h2>Rotating Speaker Tracking System</h2>
 
+<h3>This project was aimed at creating a speaker that would rotate to follow the user around a given space as well as increase in volume as the user got further away from the speaker.</h3>
+
 <div class="content-container">
     <div class="pdf-container">
         <iframe src="../images/cv/speakertracker/Lab Book.pdf" width="100%" height="600px"></iframe>

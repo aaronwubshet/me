@@ -134,11 +134,7 @@
 <img src="images/landing/aaron.jpeg" alt="Aaron Wubshet" style = "width: 50%; height: 50%"/>
 
 <style>
-	a{
-        color: -webkit-link;
-        text-decoration-line: underline;
-        cursor: auto;
-    }
+	
 	.tooltip {
         position: relative;
         display: inline-block;

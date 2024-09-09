@@ -25,18 +25,6 @@
 </div>
 
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-    }
-
-    h1, h3 {
-        text-align: center;
-        color: #333;
-    }
 
     .content-container {
         display: flex;
