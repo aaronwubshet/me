@@ -15,7 +15,7 @@
 <p> Welcome to my drawing board / portfolio of past projects and experiences! If you've found yourself here then you probably know who I am, but if you don't, my name is Aaron. I will be your host for this journey through my (somewhat) professional life... </p>
 
 <div style="display: flex; justify-content: center;">
-	<img src= "images/landing/welcome.png" alt="Aaron Wubshet" style = "width: 44.2%; height: 44.2%"/>
+	<img src= "images/landing/welcome.jpeg" alt="Aaron Wubshet" style = "width: 44.2%; height: 44.2%"/>
 </div>	
 <div style="display: flex; justify-content: center;">
 	<i>Contemplating how many pictures from this Japan vacation I can fit on my webiste</i>
@@ -68,7 +68,7 @@
 </div>
 
 	<p>
-		<b>"I don't got friends, I got<a href="https://www.youtube.com/watch?v=IQuc7wfO16Q">family</a>"</b> - My parents immigrated to the United States from Ethiopia before I was born in NOVA / DMV area. We soon moved the suburbs outside Atlanta where I grew up and my younger sister was born. While the majority of my extended family is still in Ethiopia, I have family in both places and the community vibrant and active, so I am grateful for the culture and values that have been instilled in me. 
+		<b>"I don't got friends, I got <a href="https://www.youtube.com/watch?v=IQuc7wfO16Q"> family</a>"</b> - My parents immigrated to the United States from Ethiopia before I was born in NOVA / DMV area. We soon moved the suburbs outside Atlanta where I grew up and my younger sister was born. While the majority of my extended family is still in Ethiopia, I have family in both places and the community vibrant and active, so I am grateful for the culture and values that have been instilled in me. 
 		
 </p>
 <div style="display: flex; justify-content: center;">
