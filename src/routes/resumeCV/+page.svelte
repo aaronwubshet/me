@@ -308,7 +308,7 @@
                         </a>
                     </div>
 
-                    <div class="timeline-dot">
+                    <div class="timeline-dot-not">
                         <a href="{base}/resumeCV/urops#SSL" class="timeline-link">
                         <TimelineItem>
                             <TimelineOppositeContent slot="opposite-content">
@@ -568,5 +568,13 @@
 
     .timeline-dot:hover {
         transform: scale(1.1);
+    }
+
+    .timeline-dot-not {
+        transition: transform 0.3s ease;
+    }
+
+    .timeline-dot-not:hover {
+        transform: scale(1.04);
     }
 </style>
