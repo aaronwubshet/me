@@ -10,7 +10,7 @@
 
   // Dynamically import all images from the specified folder
   const images = [];
- 
+
   for (let i = 0; i <= 3; i++) {
       images.push(`../images/cv/drone/pics/${i}.gif`);
   }

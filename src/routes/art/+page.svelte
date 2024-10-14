@@ -17,7 +17,7 @@
     <a href="{base}/art/poetry" class="card">
         <div class="card-content">
             <h1>Poetry</h1>
-			<img src="images/art/poetry/poetry_splash.png" alt="Poetry Splash" style = "width:100%; height:100%"/>
+			<img src="images/art/poetry/poetry_splash.jpg" alt="Poetry Splash" style = "width:100%; height:100%"/>
         </div>
     </a>
 	<div class="video-container card">
@@ -25,8 +25,8 @@
 
 	</div>
 	<div class="video-container card">
-		<video width="800" height="700" controls poster="images/art/guitar_thumbnail.png">
-			<source src="images/art/guitar.mov" type="video/mp4">
+		<video width="800" height="700" controls poster="images/art/music/guitar_thumbnail.jpg">
+			<source src="images/art/music/guitar.mov" type="video/mp4">
 		</video>
 	</div>
 

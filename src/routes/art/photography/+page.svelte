@@ -14,8 +14,6 @@
         images.push(`../images/art/photography/t${i}.jpg`);
     }
 
-
-
     // Shuffle the images array
     if (isModalOpen) {
         images.sort(() => Math.random() - 0.5);

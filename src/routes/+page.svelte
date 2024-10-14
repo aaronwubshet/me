@@ -15,7 +15,7 @@
 <p> Welcome to my drawing board / portfolio of past projects and experiences! If you've found yourself here then you probably know who I am, but if you don't, my name is Aaron. I will be your host for this journey through my (somewhat) professional life... </p>
 
 <div style="display: flex; justify-content: center;">
-	<img src= "images/landing/welcome.jpeg" alt="Aaron Wubshet" style = "width: 44.2%; height: 44.2%"/>
+	<img src= "images/landing/welcome.jpg" alt="Aaron Wubshet" style = "width: 44.2%; height: 44.2%"/>
 </div>	
 <div style="display: flex; justify-content: center;">
 	<i>Contemplating how many pictures from this Japan vacation I can fit on my webiste</i>
@@ -44,13 +44,13 @@
 			<li>
 				<span class="tooltip">
 					<b>Leading a more healthy and active lifestyle</b> - <i>just ran my first 5K!</i>
-					<img src="images/landing/5k.jpeg" alt="Aaron Wubshet" class="tooltip-image" />
+					<img src="images/landing/5k.jpg" alt="Aaron Wubshet" class="tooltip-image" />
 				</span>
 			</li>	
 			<li>
 				<span class="tooltip">
 				<b>Focus on being less materialistic</b> - <i>added benefit of saving more money</i>
-				<img src="images/landing/materialistic.png" alt="Aaron Wubshet" class="tooltip-image" />
+				<img src="images/landing/materialistic.jpg" alt="Aaron Wubshet" class="tooltip-image" />
 				</span>
 
 			</li>
@@ -58,7 +58,7 @@
 				<span class="tooltip">
 
 				<b>Don't always take the easy path</b> - <i>do the hard thing. struggle. maybe fail. definitely grow</i>
-				<img src="images/landing/easypath.jpeg" alt="Aaron Wubshet" class="tooltip-image" style="height: 1600%; width:50%"/>
+				<img src="images/landing/easypath.jpg" alt="Aaron Wubshet" class="tooltip-image" style="height: 1600%; width:50%"/>
 				</span>
 			</li>
 			<li><b>Being patient, jump to fewer conclusions, keep an open mind</b> - <i>makes learning new things much easier</i></li>
@@ -72,12 +72,12 @@
 		
 </p>
 <div style="display: flex; justify-content: center;">
-		<img src= "images/landing/family2.png" alt="Aaron Wubshet" style = "width: 50%; height: 50%"/>
-		<img src= "images/landing/family1.png" alt="Aaron Wubshet" style = "width: 44.2%; height: 44.2%"/>
+		<img src= "images/landing/family2.jpg" alt="Aaron Wubshet" style = "width: 50%; height: 50%"/>
+		<img src= "images/landing/family1.jpg" alt="Aaron Wubshet" style = "width: 44.2%; height: 44.2%"/>
 </div>
 	
 <p>
-	<b>Lifelong learner</b> - Growing up I never really had the space or encouragement to explore hands on engineering driven passions. My parents mostly focused on ensuring I understood and learned the appropriate theory and conceptual ideas in the classroom. However, I was fortunate enough to go to a STEM focused high school called  <a href="{base}/resumeCV/gsmst" >GSMST</a> that did have a more robust engineering curriculum. From there I went off to Boston to study at MIT<a href={resumeURL}> (and I kept coming back)</a>for my undergraduate degrees, a couple masters in electrical engineering, and an MBA. I continue to enjoy learning new things both related to engineering and in other domains. Here are a handful of things I am currently learning or want to learn more about!</p>
+	<b>Lifelong learner</b> - Growing up I never really had the space or encouragement to explore hands on engineering driven passions. My parents mostly focused on ensuring I understood and learned the appropriate theory and conceptual ideas in the classroom. However, I was fortunate enough to go to a STEM focused high school called  <a href="{base}/resumeCV/gsmst" >GSMST</a> that did have a more robust engineering curriculum. From there I went off to Boston to study at MIT<a href={resumeURL}> (and I kept coming back) </a>for my undergraduate degree, a couple masters in electrical engineering, and an MBA. I continue to enjoy learning new things both related to engineering and in other domains. Here are a handful of things I am currently learning or want to learn more about!</p>
 		<div style="display: flex;">
 			<div style="flex: 1;">
 				<ul>
@@ -99,7 +99,7 @@
 			</div>
 		</div>
 		<div style="display: flex; justify-content: center;">
-			<img src= "images/landing/learning.png" alt="Aaron Wubshet" style = "width: 50%; height: 50%"/>
+			<img src= "images/landing/learning.jpg" alt="Aaron Wubshet" style = "width: 50%; height: 50%"/>
 		</div>
 <p>
 	
