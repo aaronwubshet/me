@@ -10,9 +10,11 @@
     // Dynamically import all images from the specified folder
     const images = [];
  
-    for (let i = 1; i <= 119; i++) {
+    for (let i = 1; i <= 118; i++) {
         images.push(`../images/art/photography/img_${i}.jpg`);
     }
+
+    images.sort(() => Math.random() - 0.5);
 
     // Shuffle the images array
     if (isModalOpen) {
@@ -36,6 +38,16 @@
     function prevImage(event) {
         event.stopPropagation();
         currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+    }
+
+    function handleKeydown(event) {
+        if (event.key === 'ArrowRight') {
+            nextImage(event);
+        } else if (event.key === 'ArrowLeft') {
+            prevImage(event);
+        } else if (event.key === 'Escape') {
+            closeModal();
+        }
     }
 </script>
 
