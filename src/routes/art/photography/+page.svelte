@@ -24,10 +24,12 @@
     function openModal(index) {
         currentImageIndex = index;
         isModalOpen = true;
+        window.addEventListener('keydown', handleKeydown);
     }
 
     function closeModal() {
         isModalOpen = false;
+        window.removeEventListener('keydown', handleKeydown);
     }
 
     function nextImage(event) {
