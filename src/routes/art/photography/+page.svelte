@@ -10,8 +10,8 @@
     // Dynamically import all images from the specified folder
     const images = [];
  
-    for (let i = 1; i <= 30; i++) {
-        images.push(`../images/art/photography/t${i}.jpg`);
+    for (let i = 1; i <= 119; i++) {
+        images.push(`../images/art/photography/img_${i}.jpg`);
     }
 
     // Shuffle the images array

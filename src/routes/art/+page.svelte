@@ -11,7 +11,7 @@
     <a href="{base}/art/photography" class="card">
         <div class="card-content">
             <h1>Photography</h1>
-			<img src="images/art/photography/t4.jpg" alt="Photography" style = "width:100%; height:100%"/>
+			<img src="images/art/photography/img_2.jpg" alt="Photography" style = "width:100%; height:100%"/>
         </div>
     </a>
     <a href="{base}/art/poetry" class="card">
