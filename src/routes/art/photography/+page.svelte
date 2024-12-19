@@ -10,7 +10,7 @@
     // Dynamically import all images from the specified folder
     const images = [];
  
-    for (let i = 1; i <= 118; i++) {
+    for (let i = 1; i <= 113; i++) {
         images.push(`../images/art/photography/img_${i}.jpg`);
     }
 
